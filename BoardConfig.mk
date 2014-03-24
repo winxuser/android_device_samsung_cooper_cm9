@@ -34,3 +34,5 @@ BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/cooper/recovery/graphics.c
 TARGET_RECOVERY_INITRC := device/samsung/cooper/recovery/recovery.rc
 TARGET_RECOVERY_FSTAB := device/samsung/cooper/recovery/recovery.fstab
 TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/cooper/recovery/recovery_kernel
+
+COMMON_GLOBAL_CFLAGS += -DQCOM_LEGACY_OMX
